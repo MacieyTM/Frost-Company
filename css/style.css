@@ -1,0 +1,345 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: -1;
+}
+
+.additional-text {
+	font-size: 1.8rem;
+}
+
+.top-hero {
+	position: relative;
+	height: 20rem;
+	background-size: cover;
+	z-index: 0;
+}
+
+.top-hero-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+}
+
+/* -------------- */
+/*    nawigacja   */
+/* -------------- */
+nav {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+	font-size: 3rem;
+}
+
+.navbar-brand {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: none;
+}
+
+/* -------------- */
+/*     header     */
+/* -------------- */
+
+header {
+	font-size: 2rem;
+}
+
+.carousel-item {
+	position: relative;
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.carousel-img-one {
+	background-image: url("../img/main-carousel-1.jpg");
+}
+
+.carousel-img-two {
+	background-image: url("../img/main-carousel-2.jpg");
+}
+
+.carousel-img-three {
+	background-image: url("../img/main-carousel-3.jpg");
+}
+
+/* -------------- */
+/*      home      */
+/* -------------- */
+.home-boxes {
+	padding: 5em 0;
+}
+
+.home-box i {
+	font-size: 4rem;
+}
+
+.home-box h3 {
+	font-size: 2.6rem;
+}
+
+/* -------------- */
+
+.home-passion {
+	position: relative;
+	height: 350px;
+	background-image: url("../img/home-passion.jpg");
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+/* -------------- */
+.home-brand h3 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+/* -------------- */
+/*     aboutus    */
+/* -------------- */
+
+.aboutus-hero {
+	background-image: url("../img/about/about-hero.jpg");
+	background-position: bottom;
+}
+
+/* -------------- */
+
+.aboutus-top .display-3 {
+	text-transform: uppercase;
+}
+
+/* -------------- */
+
+.aboutus-info {
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+.aboutus-info .container {
+	padding: 2em 0.5em;
+}
+
+.aboutus-text {
+	padding: 1.8em;
+}
+
+.aboutus-text h3 {
+	margin-bottom: 0.5em;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline #007bff;
+}
+
+.aboutus-text-right {
+	text-align: right;
+}
+
+.aboutus-img {
+	height: 300px;
+	background-image: url("../img/about/about-info.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+/* -------------- */
+
+.aboutus-bottom i {
+	font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+
+/* -------------- */
+/*     usługi     */
+/* -------------- */
+
+.service-hero {
+	background-image: url("../img/service/service-hero.jpg");
+	background-position: 0 75%;
+}
+
+/* -------------- */
+
+.service-hero-box {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
+}
+
+.service-hero-box p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.service-pricing .box-one {
+	background-image: url("../img/service/engine.jpg");
+}
+.service-pricing .box-two {
+	background-image: url("../img/service/visual.jpg");
+}
+.service-pricing .box-three {
+	background-image: url("../img/service/car-audio.jpg");
+}
+.service-pricing .box-four {
+	background-image: url("../img/service/allinone.jpg");
+}
+
+.service-pricing .card-header {
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.service-pricing h3 {
+	font-weight: bold;
+}
+
+.service-pricing .btn {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+/* -------------- */
+/*    projekty    */
+/* -------------- */
+
+.projects-hero {
+	background-image: url("../img/projects/project-hero.jpg");
+	background-position: center;
+}
+
+.projects img {
+	height: 240px;
+	object-fit: cover;
+}
+
+.projects .btn {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+/* -------------- */
+/*     kontakt    */
+/* -------------- */
+.contact-hero {
+	background-image: url("../img/contact/contact-hero.jpg");
+	background-position: 0 40%;
+}
+
+.contact h2,
+.contact h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.contact h2 {
+	font-size: 2.6rem;
+}
+
+.contact-logo {
+	font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+	font-size: 1.6rem;
+}
+
+.contact .btn {
+	padding: 0.3em 0.8em;
+	font-size: 2rem;
+}
+
+.contact-map iframe {
+	width: 100%;
+	min-height: 400px;
+}
+
+/* -------------- */
+/*     footer     */
+/* -------------- */
+footer {
+	font-size: 1.6rem;
+}
+
+@media (min-width: 992px) {
+	.aboutus-info .container {
+		padding: 0;
+	}
+
+	.aboutus-shadow {
+		box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+	}
+
+	.aboutus-text {
+		padding: 5em 0;
+		transform: skew(-15deg);
+	}
+
+	.aboutus-text-left {
+		padding-right: 2em;
+		text-align: right;
+	}
+
+	.aboutus-text-right {
+		padding-left: 2em;
+		text-align: left;
+	}
+
+	.aboutus-img {
+		height: auto;
+		transform: skew(-15deg);
+	}
+}
+
+@media (min-width: 1400px) {
+	.carousel-item {
+		height: 600px;
+	}
+
+	.carousel-img-one {
+		background-image: url("../img/main-carousel-1-hq.jpg");
+	}
+
+	.carousel-img-two {
+		background-image: url("../img/main-carousel-2-hq.jpg");
+	}
+
+	.carousel-img-three {
+		background-image: url("../img/main-carousel-3-hq.jpg");
+	}
+}
